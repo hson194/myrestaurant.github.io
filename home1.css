@@ -1,0 +1,330 @@
+
+.wrap{
+	max-width: 1366px;
+	max-height: 4516px;
+}
+
+
+/*css video*/
+.video {
+	width: 100%;
+	height: 630px;;
+}
+
+.video video#bgVideo {
+  position: absolute; 
+  top: 0px; 
+  left: 0px; 
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1; 
+}
+
+@media only screen and (max-width: 768px) {
+  video {
+    display:none;
+  }
+  body{
+    background-image:url(“gallery/video.png”);
+  }
+}
+
+.video h1{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 80px;
+	text-align: center;
+	z-index: 1;
+	color: #D90909;
+}
+.video .letsea {
+	color: #FFFFFF;
+}
+
+.video .slogan{
+	padding-top: 200px;
+}
+
+
+
+/*css introduction*/
+.introduction {
+	position: relative;
+   	height:600px;
+   	width: 100%;
+   	z-index: 1;
+}
+
+.introduction::before{
+   content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("gallery/background 2.png") center center;
+    opacity: 0.4;
+}
+
+.introduction .story{
+	height: 365px;
+	width: 50%;
+	padding-left:127px;
+	padding-top: 124px;
+	padding-right: 95px;
+	float: left;
+}
+
+.introduction .story h3 {
+	color: #D90909;
+	font-size: 36px;
+	margin-bottom: 43px;
+}
+
+.introduction .story h4 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 28px;
+	padding-bottom: 29px;
+	color: #000000;
+}
+
+.introduction .story p {
+	font-family: Roboto, Sans-Serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 27px;
+	font-size: 16px;
+	letter-spacing: 0.025em;
+	color: #000000;
+	mix-blend-mode: normal;
+}
+
+.introduction img {
+	width: 50%;
+	height: 365px;
+	margin-top: 124px;
+	float: right;
+}
+
+
+/*css slide*/
+.slide {
+	width: 100%;
+	height: 750px;
+}
+
+.slide img {
+	width: 100%;
+	height: 750px;
+}
+
+
+/*css service*/
+.service {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	padding-left: 104px;
+	padding-right: 104px;
+	margin-top:72px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.service::before {
+	content: "";
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	background-image: url("gallery/background 1.png");
+	background-size: cover;
+	opacity: 0.4;
+	z-index: -1;
+}
+
+.service .icon{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 39px;
+}
+
+.service h3 {
+	color: #D90909;
+	font-size: 36px;
+	margin-bottom: 53px;
+}
+
+.service p {
+	width: 254px;
+height: 222px;
+font-family: Roboto, Sans-Serif;
+font-style: normal;
+font-weight: normal;
+line-height: 27px;
+font-size: 16px;
+letter-spacing: 0.025em;
+color: #000000;
+}
+
+
+
+
+/*css todaymenu*/
+.todaymenu {
+	width: 100%;
+	height: 900px;
+	background-color: #1B1111;
+}
+
+.todaymenu h3 {
+	color: #FFFFFF;
+	font-size: 36px;
+	padding-top: 65px;
+	text-align: center;
+}
+
+.todaymenu .star {
+	width: 192px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+
+.todaymenu .icon-small {
+	width: 23px;
+	height: 23px;
+}
+
+.todaymenu .icon-main {
+	width: 30px;
+	height: 30px;
+}
+
+.todaymenu .list img {
+	width: 400px;
+	height: 400px;
+	margin-top: 34px;
+}
+
+.list {
+	height: 635px;
+	width: 400px;
+	text-align: center;
+}
+
+.list .level {
+	width: 90px;
+	height: 10px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 39%;
+}
+
+.list .level img {
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+}
+
+.list .name {
+	height: 81px;
+}
+
+.list .name h4 {
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 24px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+margin-top: 20px;
+}
+
+.list .name p {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 16px;
+letter-spacing: 0.025em;
+padding-left: 47px;
+padding-right: 47px;
+color: #FFFDFD;
+margin-top: 20px;
+}
+
+.list .cost {
+	width: 100%;
+	height: 24px;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 42px;
+	padding-right: 42px;
+	margin-top: 20px;
+}
+
+.middleline{
+	width: 113px;
+	height: 1px;
+	background-color: #FFFFFF;
+	margin-top: 12px;
+}
+
+.cost h4 {
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+.button button {
+	margin-top: 20px;
+	width: 150px;
+	height: 50px;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	cursor: pointer;
+	border: none;
+}
+
+.button a {
+	text-decoration: none;
+	font-family: Roboto, Sans-Serif;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 24px;
+
+color: #000000;
+}
+
+.todaymenu .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*css map*/
+.map {
+	width: 100%;
+	height: 419px;
+}
+
+.map img{
+	width: 100%;
+	height: 100%;
+}
+

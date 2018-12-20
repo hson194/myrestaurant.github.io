@@ -1,0 +1,504 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrap{
+	max-width: 1366px;
+	max-height: 4516px;
+}
+
+/*css nav-top*/
+.nav-top {
+	width: 100%;
+	height: 44px;
+	background-color: #333333;
+}
+
+.icon{
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+	color: white;
+	vertical-align: sub;
+}
+
+.iconsearch{
+	vertical-align: middle;
+}
+
+.nav-top li {
+	list-style-type:none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	float: left;
+	padding-right: 40px;
+	padding-top: 16px;
+	color: #FFFCFC;
+}
+.shop{
+	float: right;
+	padding-top: 7.5px;
+}
+
+.shop .shopping-cart {
+	width: 20px;
+	height: 20px;
+}
+.shop a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.container {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+
+
+/*css navbar*/
+.navbar{
+	width: 100%;
+	height: 85px;
+	background-color: #000000;
+	padding-right: 40px;
+}
+
+.navbar img {
+	width: 165px;
+	height: 77px;
+	margin-top: 4px;
+	margin-left: 19px;
+	float: left;
+}
+
+.navbar li {
+	float: left;
+	margin-left: 70px;
+	font-family: Roboto;
+	font-size: 20px;
+	list-style-type:none;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-bottom: 36px;
+	padding-top: 27px;
+}
+
+.navbar a:hover {
+	color: #D90909;
+}
+
+.navbar .navigation {
+	padding-top: 27px;
+	float: right;
+}
+
+
+/*css head*/
+.head{
+	width: 100%;
+	height: 350px;
+	background-image: url("gallery/head menu fixed.jpg");
+	background-size: 100% 350px;
+}
+
+.head h1{
+	text-align: center;
+	padding-top: 58px;
+font-family: Sacramento;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 80px;
+
+color: #FFFFFF;
+}
+
+
+/*css todaymenu*/
+.todaymenu {
+	width: 100%;
+	height: 900px;
+	background-image: url("gallery/background-paper.jpg");
+}
+
+.todaymenu h3 {
+	color: #D90909;
+	font-size: 36px;
+	padding-top: 65px;
+	text-align: center;
+}
+
+.todaymenu .star {
+	width: 192px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+
+.todaymenu .icon-small {
+	width: 23px;
+	height: 23px;
+}
+
+.todaymenu .icon-main {
+	width: 30px;
+	height: 30px;
+}
+
+.todaymenu .list img {
+	width: 400px;
+	height: 400px;
+	margin-top: 34px;
+}
+
+.list {
+	height: 635px;
+	width: 400px;
+	text-align: center;
+}
+
+.list .level {
+	width: 90px;
+	height: 10px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 39%;
+}
+
+.list .level img {
+	width: 10px;
+	height: 10px;
+	margin-top: 10px;
+}
+
+.list .name {
+	height: 81px;
+}
+
+.list .name h4 {
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 24px;
+letter-spacing: 0.025em;
+
+color: #000000;
+margin-top: 20px;
+}
+
+.list .name p {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 16px;
+letter-spacing: 0.025em;
+padding-left: 47px;
+padding-right: 47px;
+color: #000000;
+margin-top: 20px;
+}
+
+.list .cost {
+	width: 100%;
+	height: 24px;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 42px;
+	padding-right: 42px;
+	margin-top: 20px;
+}
+
+.middleline{
+	width: 113px;
+	height: 1px;
+	background-color: #000000;
+	margin-top: 12px;
+}
+
+h4 {
+	color: #000000;
+	font-size: 24px;
+}
+
+.button button {
+	margin-top: 20px;
+	width: 150px;
+	height: 50px;
+	background-color: #000000;
+	border-radius: 20px;
+	cursor: pointer;
+	border: none;
+}
+
+.button a {
+	text-decoration: none;
+	font-family: Roboto, Sans-Serif;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 24px;
+
+color: #FFFFFF;
+}
+
+.todaymenu .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+/*css menu-list*/
+.menu-list{
+	width: 100%;
+	height: 1030px;
+}
+.menu-list nav{
+	display: flex;
+justify-content: space-around;
+padding-top: 51px;
+padding-left: 114px;
+padding-right: 114px;
+}
+
+.nav-menu-list{
+	width: 100%;
+	height: 150px;
+	background-color: #333333;
+}
+
+.nav-menu-list img{
+	width: 36px;
+	height: 36px;
+	vertical-align: text-top;
+}
+
+.nav-menu-list a{
+	font-size: 36px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 36px;
+
+color: #FFFFFF;
+
+}
+
+.menu-list .list{
+	width: 100%;
+height: 880px;
+background-image: url("gallery/background-paper.jpg");
+padding-top: 50px;
+}
+
+.menu-list .list .meal{
+	width: 100%;
+	height: 720px;
+	display: flex;
+
+flex-wrap: wrap;
+
+justify-content: space-around;
+}
+
+.list .meal img{
+	width: 285px;
+height: 310px;
+float: left;
+}
+
+.list .meal .meal1st{
+	width: 570px;
+height: 310px;
+background-color: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.meal .meal1st .meal-info{
+	padding-left: 27px;
+	padding-top: 67px;
+}
+
+.meal1st .meal-info p{
+	margin-top: 12px;
+margin-bottom: 24px;
+}
+
+.list .meal {
+	text-align: left;
+}
+
+.list button{
+	width: 236px;
+}
+
+
+
+
+
+
+/*css reservation*/
+.reservation {
+	text-align: center;
+	width: 100%;
+height: 300px;
+position: relative;
+z-index: 1;
+}
+
+.reservation::before{
+	content: "";
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-image:url("gallery/footer menu.jpg");
+background-size: 100% 450px;
+filter: grayscale(20%);
+z-index: -1;
+}
+
+.reservation button{
+	margin-top: 90px;
+	margin-bottom: 18px;
+width: 400px;
+height: 50px;
+background-color: #FFFDFD;
+border-radius: 20px;
+cursor: pointer;
+border: none;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.reservation a{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 25px;
+
+color: #000000;
+}
+
+.reservation p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+color: #FFFFFF;
+}
+
+
+
+
+/*css footer*/
+.footer {
+	width: 100%;
+	height: 350px;
+	padding-top: 55px;
+	display: flex;
+	justify-content: space-around;
+	background: url("gallery/bench1 not fixed.jpg") center center;
+}
+.footer .sizediv {
+	width: 340px;
+	height: 240px;
+	text-align: left;
+}
+
+.footer .address img{
+	width: 166px;
+	height: 86px;
+}
+
+.footer .address p{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: 24px;
+font-size: 20px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+margin-top: 20px;
+}
+
+.footer .underline{
+	width: 340px;
+	height: 1px;
+	background-color: #FFFFFF;
+	margin-top: 12px;
+}
+
+.footer h4 {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 24px;
+
+color: #FFFFFF;
+
+}
+
+.opentime .tabletime p {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+font-size: 20px;
+letter-spacing: 0.025em;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.opentime .tabletime {
+	width: 100%;
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .getintouch img {
+	width: 18px;
+	height: 18px;
+	vertical-align: sub;
+}
+
+.footer .getintouch span {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
+
+.footer .getintouch ul {
+	list-style-type: none;
+	margin-top: 12px;
+	line-height: 24px;
+}

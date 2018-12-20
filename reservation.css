@@ -1,0 +1,133 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrap{
+	max-width: 1366px;
+	max-height: 3041px;
+}
+
+/* head css */
+.head{
+	width: 100%;
+	height: 351px;
+	background-image: url("gallery/head reservation.jpg");
+	background-size: 100% 440px;
+}
+
+.head h1{
+	text-align: center;
+padding-top: 135px;
+font-family: Sacramento;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 80px;
+color: #FFFFFF;
+}
+
+
+/* map-table css */
+.map-table{
+	width: 100%;
+	height: 886px;
+	background-image: url("gallery/background-paper.jpg");
+	text-align: center;
+}
+
+.map-table h3{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 36px;
+text-align: center;
+letter-spacing: 0.025em;
+
+color: #D90909;
+padding-top: 50px;
+padding-bottom: 20px;
+}
+
+.map-table h2{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 50px;
+text-align: center;
+letter-spacing: 0.025em;
+
+color: #000000;
+padding-bottom: 37px;
+}
+
+.map-table .map-detail{
+	width: 100%;
+	height: 593px;
+}
+
+
+/* book-table css */
+.book-table{
+	width: 100%;
+	height: 800px;
+	background-image: url("gallery/book background.jpg");
+	background-size: cover;
+}
+
+
+/* quote css */
+.quote{
+	width: 100%;
+	height: 525px;
+	background-image: url("gallery/background-paper.jpg");
+	text-align: center;
+	padding-top: 70px;
+
+}
+
+.quote p{
+	width: 716px;
+	height: 88px;
+	margin-bottom: 36px;
+	
+
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: 22px;
+font-size: 16px;
+letter-spacing: 0.025em;
+
+color: #000000;
+
+}
+
+.quote h3{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 24px;
+
+color: #000000;
+
+
+	margin-bottom: 36px;
+}
+
+.quote .quote-left img{
+	width: 100px;
+	height: 100px;
+
+	margin-bottom: 60px;
+}

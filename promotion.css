@@ -1,0 +1,129 @@
+
+.wrap{
+	max-width: 1366px;
+	max-height: 4516px;
+}
+
+
+/*css head*/
+.head{
+	width: 100%;
+	height: 639px;
+	background-image: url("gallery/offer2.jpg");
+	background-size: cover;
+	
+}
+
+.head .today-saver{
+	width: 512px;
+height: 639px;
+float: right;
+text-align: center;
+  background:rgba(255,255,255,0.5);
+background: rgba(0, 0, 0, 0.75);
+}
+
+.head h1{
+	text-align: center;
+	padding-top: 87px;
+padding-bottom: 17px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 70px;
+
+color: #FFFFFF;
+
+}
+
+.head .today-saver .middleline{
+	width: 410px;
+height: 2px;
+background: #FFFFFF;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.head h2{
+	text-align: center;
+	margin-top: 40px;
+margin-bottom: 40px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 50px;
+
+color: #FFFFFF;
+
+}
+
+.today-saver .cost{
+	width: 100%;
+height: 87px;
+margin-bottom: 63px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 21%;
+padding-right: 21%;
+}
+
+.today-saver .cost p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 36px;
+
+color: #FFFFFF;
+}
+
+
+.today-saver .cost h1{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 80px;
+
+color: #FFFFFF;
+}
+
+.today-saver .cost .price{
+height: 87px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 80px;
+
+color: #FFFFFF;
+
+}
+
+
+
+.head .today-saver button{
+	width: 275px;
+height: 80px;
+left: 973px;
+top: 602px;
+background: rgba(0, 0, 0, 0.0);
+border-radius: 20px;
+cursor: pointer;
+/*border: 2px solid #FFFDFD;*/
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+}
+
+.head .today-saver a{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 36px;
+color: #FFFFFF;
+
+}

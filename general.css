@@ -1,0 +1,199 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrap{
+	max-width: 1366px;
+	max-height: 4516px;
+}
+
+/*css nav-top*/
+.nav-top {
+	width: 100%;
+	height: 44px;
+	background-color: #333333;
+}
+
+.icon{
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+	color: white;
+	vertical-align: sub;
+}
+
+.iconsearch{
+	vertical-align: middle;
+}
+
+.nav-top li {
+	list-style-type:none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	float: left;
+	padding-right: 40px;
+	padding-top: 16px;
+	color: #FFFCFC;
+}
+.shop{
+	float: right;
+	padding-top: 7.5px;
+}
+
+.shop .shopping-cart {
+	width: 20px;
+	height: 20px;
+}
+.shop a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.container {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+
+
+/*css navbar*/
+.navbar{
+	width: 100%;
+	height: 85px;
+	background-color: #000000;
+	padding-right: 40px;
+}
+
+.navbar img {
+	width: 165px;
+	height: 77px;
+	margin-top: 4px;
+	margin-left: 19px;
+	float: left;
+}
+
+.navbar li {
+	float: left;
+	margin-left: 70px;
+	font-family: Roboto;
+	font-size: 20px;
+	list-style-type:none;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding-bottom: 36px;
+	padding-top: 27px;
+}
+
+.navbar a:hover {
+	color: #D90909;
+}
+
+.navbar .navigation {
+	padding-top: 27px;
+	float: right;
+}
+
+
+
+
+/*css footer*/
+.footer {
+	width: 100%;
+	height: 350px;
+	padding-top: 55px;
+	display: flex;
+	justify-content: space-around;
+	background: url("gallery/bench1 not fixed.jpg") center center;
+}
+.footer .sizediv {
+	width: 340px;
+	height: 240px;
+	text-align: left;
+}
+
+.footer .address img{
+	width: 166px;
+	height: 86px;
+}
+
+.footer .address p{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: 24px;
+font-size: 20px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+margin-top: 20px;
+}
+
+.footer .underline{
+	width: 340px;
+	height: 1px;
+	background-color: #FFFFFF;
+	margin-top: 12px;
+}
+
+.footer h4 {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 24px;
+
+color: #FFFFFF;
+
+}
+
+.opentime .tabletime p {
+	font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+font-size: 20px;
+letter-spacing: 0.025em;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.opentime .tabletime {
+	width: 100%;
+	margin-top: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .getintouch img {
+	width: 18px;
+	height: 18px;
+	vertical-align: sub;
+}
+
+.footer .getintouch span {
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+}
+
+.footer .getintouch ul {
+	list-style-type: none;
+	margin-top: 12px;
+	line-height: 24px;
+}
