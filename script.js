@@ -26,3 +26,12 @@ function stopListImage(imageArray){
 		imageArray[i].style.display = "none";
 	}
 }
+
+
+// Code jquery
+
+/*$(document).ready(function(){
+	$(".list .button").click(function(){
+		$(".mealtoggle").slideToggle("slow");
+	})
+})*/

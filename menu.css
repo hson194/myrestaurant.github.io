@@ -8,6 +8,10 @@ a{
 	text-decoration: none;
 }
 
+body{
+	overflow-x: hidden;
+}
+
 .wrap{
 	max-width: 1366px;
 	max-height: 4516px;
@@ -162,8 +166,9 @@ color: #FFFFFF;
 
 .todaymenu .list img {
 	width: 400px;
-	height: 400px;
+	height: 370px;
 	margin-top: 34px;
+	padding-left: 51px;
 }
 
 .list {
