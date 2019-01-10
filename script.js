@@ -28,10 +28,5 @@ function stopListImage(imageArray){
 }
 
 
-// Code jquery
 
-/*$(document).ready(function(){
-	$(".list .button").click(function(){
-		$(".mealtoggle").slideToggle("slow");
-	})
-})*/
+
