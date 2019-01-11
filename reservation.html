@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 	<title>Reservation.html</title>
 	<link rel="stylesheet" type="text/css" href="reservation.css">
 	<link rel="stylesheet" type="text/css" href="general.css">
-	</head>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
+</head>
 
 
-	<body>
-		<div class="wrap">
+<body>
+	<div class="wrap">
 
 		<!--nav-top-->
 		<div class="nav-top">
@@ -42,113 +44,207 @@
 		</div>
 
 
-	<!--head-->
-	<div class="head">
-		<h1>Reservation Now</h1>
-	</div>
-
-
-	<!--map-table-->
-	<div class="map-table">
-		<h3>Table Available</h3>
-		<h2>Select Your Table</h2>
-		<div class="map-detail">
-		</div>
-	</div>
-
-
-	<!--book-talbe-->
-	<div class="book-table">
-		
-	</div>
-
-
-	<!--quote-->
-	<div class="quote">
-		<div class="quote-left">
-			<img src="icon/quote-left.svg">
-		</div>
-
-		<div>
-			<p class="quote-comment">
-				There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo
-			</p>
-		</div>
-
-		<div>
-			<h3>
-				Michale Jackson
-			</h3>
-		</div>
-
-		<div>
-			<p>
-				A Developer
-			</p>
-		</div>
-	</div>
-
-
-
-	<!--footer-->
-	<div class="footer">
-		<div class="address sizediv">
-			<img src="gallery/logotrongsuot.png" alt="logotrongsuot.png">
-			<p>
-				Example Street 546 Dong Hoa,<br>
-				Thai Binh city, <br>
-				Zip 410000, Vietnam
-			</p>
+		<!--head-->
+		<div class="head">
+			<h1>Reservation Now</h1>
 		</div>
 
 
-		<div class="opentime sizediv">
-			<h4>Opening Times</h4>
-			<p class="underline"></p>
-			<div class="tabletime">
-				<div class="dayofweek">
-					<p>Monday</p>
-					<p>Tuesday</p>
-					<p>Wednesday</p>
-					<p>Thursday</p>
-					<p>Friday</p>
-					<p>Saturday</p>
-					<p>Sunday</p>
-				</div>
-
-				<div class="timeofday">
-					<p>Closed</p>
-					<p>2 pm - 10 pm</p>
-					<p>2 pm - 10 pm</p>
-					<p>2 pm - 10 pm</p>
-					<p>2 pm - 10 pm</p>
-					<p>8 pm - 12 pm</p>
-					<p>8 pm - 12 pm</p>
-				</div>
+		<!--map-table-->
+		<div class="map-table">
+			<h3>Table Available</h3>
+			<h2>Select Your Table</h2>
+			<div class="map-detail">
 			</div>
 		</div>
 
 
-		<div class="getintouch sizediv">
-			<h4>Get In Touch</h4>
-			<p class="underline"></p>
-			<ul>
-				<li><img src="icon/phone-call1.svg">
-					<span>+84373023937</span>
-				</li>
-				<li><img src="icon/fax.svg">
-					<span>+8412345678</span>
-				</li>
-				<li><img src="icon/envelope.svg">
-					<span>hoaison@myrestaurant.com</span>
-				</li>
-				<li><img src="icon/earth.svg">
-					<span>myrestaurant.com</span>
-				</li>
-			</ul>
+		<!--book-talbe-->
+		<div class="book-table">
+			<div class="form_book">
+				<h1>
+					Your Table
+				</h1>
+				<div class="underline"></div>
+				<form>
+					<div class="row_form">
+						<input type="text" name="name" placeholder="Name" required="">
+						<input type="tel" name="telephone" placeholder="Contact Number" required="">
+						<input type="email" name="email" placeholder="Email Address" required="">
+						<input type="number" name="number" placeholder="Number of person" required="">
+						<input type="date" name="date" placeholder="Book Date" required="">
+						<input type="time" name="time" placeholder="Your time" value="now" required="" >
+					</div>
+					<textarea placeholder="Message of Request" required=""></textarea>
+					<input class="booknow_button" type="submit" name="submit" value="Book Now">
+				</form>
+				
+				
+			</div>
+		</div>
+
+
+		<!--quote-->
+		<div class="quote">
+			<dir class="quote1">
+				<div class="quote-left">
+					<img src="icon/quote-left.svg">
+				</div>
+
+				<div>
+					<p class="quote-comment">
+						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo
+					</p>
+				</div>
+
+				<div>
+					<h3>
+						William Henry Gates III
+					</h3>
+				</div>
+
+				<div>
+					<p>
+						A Developer
+					</p>
+				</div>
+			</dir>
+
+
+			<dir class="quote2">
+				<div class="quote-left">
+					<img src="icon/quote-left.svg">
+				</div>
+
+				<div>
+					<p class="quote-comment">
+						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo
+					</p>
+				</div>
+
+				<div>
+					<h3>
+						Steven Paul Jobs
+					</h3>
+				</div>
+
+				<div>
+					<p>
+						A Developer
+					</p>
+				</div>
+			</dir>
+
+
+			<dir class="quote3">
+				<div class="quote-left">
+					<img src="icon/quote-left.svg">
+				</div>
+
+				<div>
+					<p class="quote-comment">
+						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected of passages ofeven alteration in some form, by injected of passages ofeven slightly available.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolo
+					</p>
+				</div>
+
+				<div>
+					<h3>
+						Mark Elliot Zuckerberg
+					</h3>
+				</div>
+
+				<div>
+					<p>
+						A Developer
+					</p>
+				</div>
+			</dir>
+		</div>
+
+
+
+		<!--footer-->
+		<div class="footer">
+			<div class="address sizediv">
+				<img src="gallery/logotrongsuot.png" alt="logotrongsuot.png">
+				<p>
+					Example Street 546 Dong Hoa,<br>
+					Thai Binh city, <br>
+					Zip 410000, Vietnam
+				</p>
+			</div>
+
+
+			<div class="opentime sizediv">
+				<h4>Opening Times</h4>
+				<p class="underline"></p>
+				<div class="tabletime">
+					<div class="dayofweek">
+						<p>Monday</p>
+						<p>Tuesday</p>
+						<p>Wednesday</p>
+						<p>Thursday</p>
+						<p>Friday</p>
+						<p>Saturday</p>
+						<p>Sunday</p>
+					</div>
+
+					<div class="timeofday">
+						<p>Closed</p>
+						<p>2 pm - 10 pm</p>
+						<p>2 pm - 10 pm</p>
+						<p>2 pm - 10 pm</p>
+						<p>2 pm - 10 pm</p>
+						<p>8 pm - 12 pm</p>
+						<p>8 pm - 12 pm</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="getintouch sizediv">
+				<h4>Get In Touch</h4>
+				<p class="underline"></p>
+				<ul>
+					<li><img src="icon/phone-call1.svg">
+						<span>+84373023937</span>
+					</li>
+					<li><img src="icon/fax.svg">
+						<span>+8412345678</span>
+					</li>
+					<li><img src="icon/envelope.svg">
+						<span>hoaison@myrestaurant.com</span>
+					</li>
+					<li><img src="icon/earth.svg">
+						<span>myrestaurant.com</span>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
-</div>
-	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".quote").slick({
+				dots: true,
+				autoplaySpeed: 1500,
+				autoplay : true
+			});
+
+
+			$(function(){     
+			var d = new Date(),        
+			h = d.getHours(),
+			m = d.getMinutes();
+			if(h < 10) h = '0' + h; 
+			if(m < 10) m = '0' + m; 
+			$('input[type="time"][value="now"]').each(function(){ 
+				$(this).attr({'value': h + ':' + m});
+			});
+		});
+		});
+	</script>
+</body>
 
 </html>

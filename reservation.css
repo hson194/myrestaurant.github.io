@@ -8,6 +8,12 @@ a{
 	text-decoration: none;
 }
 
+body{
+	overflow-x: hidden;
+	background-image: url("gallery/background-paper.jpg");
+	background-repeat: repeat-y;
+}
+
 .wrap{
 	max-width: 1366px;
 	max-height: 3041px;
@@ -23,13 +29,13 @@ a{
 
 .head h1{
 	text-align: center;
-padding-top: 135px;
-font-family: Sacramento;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 80px;
-color: #FFFFFF;
+	padding-top: 135px;
+	font-family: Sacramento;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 80px;
+	color: #FFFFFF;
 }
 
 
@@ -37,35 +43,34 @@ color: #FFFFFF;
 .map-table{
 	width: 100%;
 	height: 886px;
-	background-image: url("gallery/background-paper.jpg");
 	text-align: center;
 }
 
 .map-table h3{
 	font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 36px;
-text-align: center;
-letter-spacing: 0.025em;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 0.025em;
 
-color: #D90909;
-padding-top: 50px;
-padding-bottom: 20px;
+	color: #D90909;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .map-table h2{
 	font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 50px;
-text-align: center;
-letter-spacing: 0.025em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 0.025em;
 
-color: #000000;
-padding-bottom: 37px;
+	color: #000000;
+	padding-bottom: 37px;
 }
 
 .map-table .map-detail{
@@ -76,18 +81,132 @@ padding-bottom: 37px;
 
 /* book-table css */
 .book-table{
+	position: relative;
 	width: 100%;
 	height: 800px;
-	background-image: url("gallery/book background.jpg");
-	background-size: cover;
+	z-index: 1;
+	
 }
+
+.form_book{
+	text-align: center;
+	width: 670px;
+	height: 100%;
+	background-color: #000000;
+	margin-left: 84px;
+}
+
+.form_book h1{
+	display: inline-block;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 36px;
+	letter-spacing: 0.025em;
+
+	color: #FFFFFF;
+	margin-top: 60px;
+}
+
+.form_book .underline{
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 180px;
+	height: 2px;
+
+	background: #FFFFFF;
+	border-radius: 20px;
+}
+
+
+.form_book .row_form input{
+	display: block;
+	width: 277px;
+	height: 56px;
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+
+.form_book .row_form{
+	display: flex;	
+	width: 570px;
+	height: 208px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+
+
+.form_book textarea{
+	width: 570px;
+	height: 164px;
+	max-width: 570px;
+	max-height: 164px;
+
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.form_book textarea, input{
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 16px;
+letter-spacing: 0.025em;
+
+color: #817F7F;
+
+border-radius: 10px;
+}
+
+.booknow_button{
+	width: 400px;
+height: 80px;
+
+background-color: black;
+border-radius: 20px;
+border: solid 3px white;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 25px;
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 60px;
+}
+
+.book-table::before{
+	content: "";
+	position: absolute;
+	background-image: url("gallery/book background.jpg");
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	z-index: -1;
+}
+
+
+
+
+
+
 
 
 /* quote css */
 .quote{
 	width: 100%;
-	height: 525px;
-	background-image: url("gallery/background-paper.jpg");
+	height: 450px;
 	text-align: center;
 	padding-top: 70px;
 
@@ -102,24 +221,24 @@ padding-bottom: 37px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-line-height: 22px;
-font-size: 16px;
-letter-spacing: 0.025em;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 22px;
+	font-size: 16px;
+	letter-spacing: 0.025em;
 
-color: #000000;
+	color: #000000;
 
 }
 
 .quote h3{
 	font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	font-size: 24px;
 
-color: #000000;
+	color: #000000;
 
 
 	margin-bottom: 36px;
@@ -130,4 +249,9 @@ color: #000000;
 	height: 100px;
 
 	margin-bottom: 60px;
+	display: inline-block;
+}
+
+.footer{
+	margin-top: 50px !important;
 }
