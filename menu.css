@@ -168,7 +168,7 @@ color: #FFFFFF;
 	width: 400px;
 	height: 370px;
 	margin-top: 34px;
-	padding-left: 51px;
+	
 }
 
 .list {
@@ -398,26 +398,28 @@ filter: grayscale(20%);
 z-index: -1;
 }
 
-.reservation button{
-	margin-top: 90px;
+.reservation .button{
+	
+margin-top: 90px;
 	margin-bottom: 18px;
-width: 400px;
-height: 50px;
-background-color: #FFFDFD;
-border-radius: 20px;
-cursor: pointer;
-border: none;
-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .reservation a{
+	display: inline-block;
 	font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 font-size: 25px;
-
+padding-top: 10px;	
 color: #000000;
+width: 400px;
+height: 50px;
+background-color: #FFFDFD;
+border-radius: 20px;
+/*cursor: pointer;*/
+border: none;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 .reservation p{
@@ -427,6 +429,7 @@ font-weight: normal;
 line-height: normal;
 font-size: 20px;
 color: #FFFFFF;
+
 }
 
 

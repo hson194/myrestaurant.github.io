@@ -4,6 +4,10 @@
 	max-height: 4516px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 
 /*css video*/
 .video {
@@ -218,12 +222,14 @@ color: #000000;
 	width: 400px;
 	height: 400px;
 	margin-top: 34px;
+	margin-left: auto;
 }
 
 .list {
 	height: 635px;
 	width: 400px;
 	text-align: center;
+	margin-left: auto;
 }
 
 .list .level {
@@ -312,10 +318,10 @@ font-size: 24px;
 color: #000000;
 }
 
-.todaymenu .container {
+/*.todaymenu .container {
 	display: flex;
 	justify-content: space-between;
-}
+}*/
 
 /*css map*/
 .map {
