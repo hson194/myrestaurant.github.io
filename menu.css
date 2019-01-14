@@ -1,111 +1,4 @@
-*{
-	padding: 0;
-	margin:0;
-	box-sizing: border-box;
-}
 
-a{
-	text-decoration: none;
-}
-
-body{
-	overflow-x: hidden;
-}
-
-.wrap{
-	max-width: 1366px;
-	/*max-height: 4516px;*/
-}
-
-/*css nav-top*/
-.nav-top {
-	width: 100%;
-	height: 44px;
-	background-color: #333333;
-}
-
-.icon{
-	width: 12px;
-	height: 12px;
-	margin-right: 5px;
-	color: white;
-	vertical-align: sub;
-}
-
-.iconsearch{
-	vertical-align: middle;
-}
-
-.nav-top li {
-	list-style-type:none;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	float: left;
-	padding-right: 40px;
-	padding-top: 16px;
-	color: #FFFCFC;
-}
-.shop{
-	float: right;
-	padding-top: 7.5px;
-}
-
-.shop .shopping-cart {
-	width: 20px;
-	height: 20px;
-}
-.shop a{
-	color: #FFFFFF;
-	text-decoration: none;
-}
-.container {
-	padding-right: 40px;
-	padding-left: 40px;
-}
-
-
-
-/*css navbar*/
-.navbar{
-	width: 100%;
-	height: 85px;
-	background-color: #000000;
-	padding-right: 40px;
-}
-
-.navbar img {
-	width: 165px;
-	height: 77px;
-	margin-top: 4px;
-	margin-left: 19px;
-	float: left;
-}
-
-.navbar li {
-	float: left;
-	margin-left: 70px;
-	font-family: Roboto;
-	font-size: 20px;
-	list-style-type:none;
-}
-
-.navbar a {
-	text-decoration: none;
-	color: #FFFFFF;
-	padding-bottom: 36px;
-	padding-top: 27px;
-}
-
-.navbar a:hover {
-	color: #D90909;
-}
-
-.navbar .navigation {
-	padding-top: 27px;
-	float: right;
-}
 
 
 /*css head*/
@@ -167,7 +60,8 @@ color: #FFFFFF;
 .todaymenu .list img {
 	width: 400px;
 	height: 370px;
-	margin-top: 34px;
+	margin-top: 34px !important;
+	margin: auto;
 	
 }
 
@@ -175,6 +69,7 @@ color: #FFFFFF;
 	height: 635px;
 	width: 400px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 
 .list .level {
@@ -188,7 +83,7 @@ color: #FFFFFF;
 .list .level img {
 	width: 10px;
 	height: 10px;
-	margin-top: 10px;
+	margin-top: 10px !important;
 }
 
 .list .name {
@@ -250,6 +145,14 @@ h4 {
 	border-radius: 20px;
 	cursor: pointer;
 	border: none;
+}
+
+.buttonLast button:hover{
+	background-color: white;
+color: black !important;
+border-color: black;
+border-width: 1px;
+border-style: solid;
 }
 
 .button a {
@@ -362,6 +265,7 @@ margin-bottom: 24px;
 
 .list button{
 	width: 236px;
+	box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
 .button.loadMore, .loadMore2, .loadMore3, .loadMore4 {
@@ -419,7 +323,7 @@ background-color: #FFFDFD;
 border-radius: 20px;
 /*cursor: pointer;*/
 border: none;
-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+box-shadow: 0px 0px 4px 12px rgba(0, 0, 0, 0.25);
 }
 
 .reservation p{
@@ -432,6 +336,10 @@ color: #FFFFFF;
 
 }
 
+.reservation .button a:hover{
+	background-color: #D90909;
+color: white;
+}
 
 
 

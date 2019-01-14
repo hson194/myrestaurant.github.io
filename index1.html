@@ -376,21 +376,41 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="backToTop">
+		<img src="icon/up-chevron-button.png">
+	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<!-- <script type="text/javascript" src="jquery.js"></script> -->
 	<script type="text/javascript" src="script.js"></script>
 	<script type="text/javascript">
 		$("#slide_todaymenu").slick({
-		autoplay:true,
-		dots:true,
-		infinite: true,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		autoplaySpeed :1000,
+			autoplay:true,
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			autoplaySpeed :1000,
 		// arrows:true,
-		// centerMode: true
+		centerMode: true,
 	});
-	</script>
+
+		$(window).scroll(function(){
+			if($(this).scrollTop() >= 120){
+				$(".backToTop").fadeIn(200);
+			}else{
+				$(".backToTop").fadeOut(200);
+			}
+		});
+
+
+
+		$(".backToTop").click(function(){
+			$("body,html").animate({
+				scrollTop : 0
+			},500)
+		})
+
+</script>
 </body>
 </html>

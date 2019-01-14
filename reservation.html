@@ -55,6 +55,33 @@
 			<h3>Table Available</h3>
 			<h2>Select Your Table</h2>
 			<div class="map-detail">
+				<div class="tableLine">
+					<img src="gallery/1.jpg">
+					<img src="gallery/2.jpg">
+					<img src="gallery/3.jpg">
+					<img src="gallery/4.jpg">
+					<img src="gallery/5.jpg">
+				</div>
+			</div>
+
+			<div class="map-detail">
+				<div class="tableLine">
+					<img src="gallery/6.jpg">
+					<img src="gallery/7.jpg">
+					<img src="gallery/8.jpg">
+					<img src="gallery/9.jpg">
+					<img src="gallery/10.jpg">
+				</div>
+			</div>
+
+			<div class="map-detail">
+				<div class="tableLine">
+					<img src="gallery/11.jpg">
+					<img src="gallery/12.jpg">
+					<img src="gallery/13.jpg">
+					<img src="gallery/14.jpg">
+					<img src="gallery/15.jpg">
+				</div>
 			</div>
 		</div>
 
@@ -222,6 +249,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="backToTop">
+		<img src="icon/up-chevron-button.png">
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
 	<script type="text/javascript">
@@ -243,6 +273,22 @@
 				$(this).attr({'value': h + ':' + m});
 			});
 		});
+
+			 $(window).scroll(function(){
+			if($(window).scrollTop() >= 80){
+				$(".backToTop").fadeIn(200);
+			}else{
+				$(".backToTop").fadeOut(200);
+			}
+		});
+
+
+
+		$(".backToTop").click(function(){
+			$("body,html").animate({
+				scrollTop : 0
+			},500)
+		})
 		});
 	</script>
 </body>

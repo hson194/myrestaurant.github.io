@@ -61,4 +61,21 @@ $(document).ready(function(){
         }, 1000);*/
     });
 
+
+    $(window).scroll(function(){
+			if($(window).scrollTop() >= 80){
+				$(".backToTop").fadeIn(200);
+			}else{
+				$(".backToTop").fadeOut(200);
+			}
+		});
+
+
+
+		$(".backToTop").click(function(){
+			$("body,html").animate({
+				scrollTop : 0
+			},500)
+		})
+
 })

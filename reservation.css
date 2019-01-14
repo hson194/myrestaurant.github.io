@@ -70,12 +70,31 @@ body{
 	letter-spacing: 0.025em;
 
 	color: #000000;
-	padding-bottom: 37px;
+	
 }
 
 .map-table .map-detail{
 	width: 100%;
-	height: 593px;
+	/*height: 593px;*/
+}
+
+.map-table .map-detail img{
+	width: 230px;
+	height: 160px;
+	opacity: 1;
+	transition: opacity 0.5s linear;
+}
+
+.map-table .map-detail img:hover{
+	opacity: 0.25;
+	border-style: solid;
+	border-color: black;
+}
+
+.map-table .map-detail .tableLine{
+	display: flex;
+	margin-top: 50px;
+	justify-content: center;
 }
 
 

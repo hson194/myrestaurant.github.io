@@ -237,13 +237,17 @@ color: #000000;
 	height: 10px;
 	display: flex;
 	justify-content: space-between;
-	margin-left: 39%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .list .level img {
 	width: 10px;
 	height: 10px;
 	margin-top: 10px;
+	margin-left: auto;
+margin-right: auto;
+	
 }
 
 .list .name {
@@ -276,17 +280,18 @@ margin-top: 20px;
 }
 
 .list .cost {
-	width: 100%;
+	width: 350px;
 	height: 24px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding-left: 42px;
 	padding-right: 42px;
 	margin-top: 20px;
+	margin: auto;
 }
 
 .middleline{
-	width: 113px;
+	width: 100px;
 	height: 1px;
 	background-color: #FFFFFF;
 	margin-top: 12px;
@@ -318,6 +323,9 @@ font-size: 24px;
 color: #000000;
 }
 
+.list{
+	display: block;
+}
 /*.todaymenu .container {
 	display: flex;
 	justify-content: space-between;
