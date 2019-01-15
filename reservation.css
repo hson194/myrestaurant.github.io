@@ -10,13 +10,14 @@ a{
 
 body{
 	overflow-x: hidden;
-	background-image: url("gallery/background-paper.jpg");
-	background-repeat: repeat-y;
+	
 }
 
 .wrap{
 	max-width: 1366px;
 	max-height: 3041px;
+	background-image: url("gallery/background-paper.jpg");
+	background-repeat: repeat-y;
 }
 
 /* head css */
