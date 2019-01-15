@@ -37,7 +37,7 @@
 					<li><a href="index1.html">Home</a></li>
 					<li><a href="menu.html">Menu</a></li>
 					<li><a href="promotion.html">Promotion</a></li>
-					<li><a href="reservation.html">Reservation</a></li>
+					<li><a class="navActive" href="reservation.html">Reservation</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
@@ -56,31 +56,31 @@
 			<h2>Select Your Table</h2>
 			<div class="map-detail">
 				<div class="tableLine">
-					<img src="gallery/1.jpg">
-					<img src="gallery/2.jpg">
-					<img src="gallery/3.jpg">
-					<img src="gallery/4.jpg">
-					<img src="gallery/5.jpg">
+					<img id="table1" src="gallery/1.jpg">
+					<img id="table2" src="gallery/2.jpg">
+					<img id="table3" src="gallery/3.jpg">
+					<img id="table4" src="gallery/4.jpg">
+					<img id="table5" src="gallery/5.jpg">
 				</div>
 			</div>
 
 			<div class="map-detail">
 				<div class="tableLine">
-					<img src="gallery/6.jpg">
-					<img src="gallery/7.jpg">
-					<img src="gallery/8.jpg">
-					<img src="gallery/9.jpg">
-					<img src="gallery/10.jpg">
+					<img id="table6" src="gallery/6.jpg">
+					<img id="table7" src="gallery/7.jpg">
+					<img id="table8" src="gallery/8.jpg">
+					<img id="table9" src="gallery/9.jpg">
+					<img id="table10" src="gallery/10.jpg">
 				</div>
 			</div>
 
 			<div class="map-detail">
 				<div class="tableLine">
-					<img src="gallery/11.jpg">
-					<img src="gallery/12.jpg">
-					<img src="gallery/13.jpg">
-					<img src="gallery/14.jpg">
-					<img src="gallery/15.jpg">
+					<img id="table11" src="gallery/11.jpg">
+					<img id="table12" src="gallery/12.jpg">
+					<img id="table13" src="gallery/13.jpg">
+					<img id="table14" src="gallery/14.jpg">
+					<img id="table15" src="gallery/15.jpg">
 				</div>
 			</div>
 		</div>
@@ -288,7 +288,86 @@
 			$("body,html").animate({
 				scrollTop : 0
 			},500)
-		})
+		});
+
+
+		$("#table1").click(function(){
+			$("#table1").fadeTo(500, 0.25);
+			$("#table1").css("border-style", "solid");
+		});
+
+
+		$("#table2").click(function(){
+			$("#table2").fadeTo(500, 0.25);
+			$("#table2").css("border-style", "solid");
+		});
+
+		
+		$("#table3").click(function(){
+			$("#table3").fadeTo(500, 0.25);
+			$("#table3").css("border-style", "solid");
+		});
+
+		$("#table4").click(function(){
+			$("#table4").fadeTo(500, 0.25);
+			$("#table4").css("border-style", "solid");
+		});
+
+		$("#table5").click(function(){
+			$("#table5").fadeTo(500, 0.25);
+			$("#table5").css("border-style", "solid");
+		});
+
+		$("#table6").click(function(){
+			$("#table6").fadeTo(500, 0.25);
+			$("#table6").css("border-style", "solid");
+		});
+
+		$("#table7").click(function(){
+			$("#table7").fadeTo(500, 0.25);
+			$("#table7").css("border-style", "solid");
+		});
+
+		$("#table8").click(function(){
+			$("#table8").fadeTo(500, 0.25);
+			$("#table8").css("border-style", "solid");
+		});
+
+		$("#table9").click(function(){
+			$("#table9").fadeTo(500, 0.25);
+			$("#table9").css("border-style", "solid");
+		});
+
+		$("#table10").click(function(){
+			$("#table10").fadeTo(500, 0.25);
+			$("#table10").css("border-style", "solid");
+		});
+
+		$("#table11").click(function(){
+			$("#table11").fadeTo(500, 0.25);
+			$("#table11").css("border-style", "solid");
+		});
+
+		$("#table12").click(function(){
+			$("#table12").fadeTo(500, 0.25);
+			$("#table12").css("border-style", "solid");
+		});
+
+		$("#table13").click(function(){
+			$("#table13").fadeTo(500, 0.25);
+			$("#table13").css("border-style", "solid");
+		});
+
+		$("#table14").click(function(){
+			$("#table14").fadeTo(500, 0.25);
+			$("#table14").css("border-style", "solid");
+		});
+
+		$("#table15").click(function(){
+			$("#table15").fadeTo(500, 0.25);
+			$("#table15").css("border-style", "solid");
+		});
+
 		});
 	</script>
 </body>

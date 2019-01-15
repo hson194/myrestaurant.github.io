@@ -94,8 +94,12 @@ body{
 .navbar a {
 	text-decoration: none;
 	color: #FFFFFF;
-	padding-bottom: 36px;
+	padding-bottom: 10px;
 	padding-top: 27px;
+}
+
+.navbar a:actived{
+	border-bottom: 3px solid red;
 }
 
 .navbar a:hover {
@@ -107,6 +111,9 @@ body{
 	float: right;
 }
 
+.navbar .navActive{
+	border-bottom: 2px solid #D90909;
+}
 
 
 

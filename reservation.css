@@ -81,14 +81,14 @@ body{
 .map-table .map-detail img{
 	width: 230px;
 	height: 160px;
-	opacity: 1;
-	transition: opacity 0.5s linear;
+	/*opacity: 1;
+	transition: opacity 0.5s linear;*/
 }
 
 .map-table .map-detail img:hover{
-	opacity: 0.25;
+	/*opacity: 0.25;*/
 	border-style: solid;
-	border-color: black;
+	border-color: #D90909;
 }
 
 .map-table .map-detail .tableLine{
